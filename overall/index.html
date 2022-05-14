@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Форма регистарции</title>
+</head>
+<body>
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Register</h1>
+          <label for="psw"><b>Имя</b></label>
+          <input type="password" placeholder="Ваше имя" name="name" required>
+
+          <label for="psw"><b>Фамилия</b></label>
+          <input type="password" placeholder="Ваша фамилия" name="fem" required>
+
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Ваш пароль" name="psw" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Ваша почта" name="email" required>
+
+          <input type="checkbox"><label><u>Пользовательское соглашение.</u></label><br>
+
+          <form>
+            <p><button>Добавить</button> 
+            <button>Очистить</button></p>
+           </form>
+        </div>
+        <div class="container signin">
+          <p>Уже зарегистрировались? <a href="#">Войти</a>.</p>
+        </div>
+      </form>
+
+      
+</body>
+</html>

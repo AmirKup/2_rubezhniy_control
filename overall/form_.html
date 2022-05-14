@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-processing.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact form</h1>
+        <form action="https://formsubmit.co/esetovamir@gmail.com" method="POST">
+            <input type="text" name="Name" placeholder="Full name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <select name="Continent">
+                <option>Africa</option>
+                <option>Asia</option>
+                <option>Antartica</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>Sourth America</option>
+            </select>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+</html>
